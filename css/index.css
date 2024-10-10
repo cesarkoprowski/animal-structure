@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  text-align: center;
+  flex-direction: column;
+  background-color: #000850;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.game {
+  font-size: 1.3em;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.instructions {
+  margin: 0 auto;
+  height: 220px;
+  width: 600px;
+  background-color: #faf3d5;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.animals h1 {
+  color: #faf3d5;
+}
+
+.animals p {
+  color: #000850;
+  margin: 10px;
+  height: 220px;
+  width: 600px;
+  background-color: #faf3d5;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.5em;
+}
+
+.dog {
+  font-weight: bold;
+}
+
+.instructions p {
+  margin-bottom: 1em;
+  color: rgb(0, 8, 80);
+}
+
+.div-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+}
+
+.button {
+  padding: 7.5px 20px;
+  border-radius: 5px;
+  background-color: #faf3d5;
+  color: rgb(0, 8, 80);
+  cursor: pointer;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: black;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #f5e289;
+  padding: 10px 30px;
+}

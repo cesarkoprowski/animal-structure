@@ -1,0 +1,73 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  text-align: center;
+  flex-direction: column;
+  background-color: #000850;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin-top: 115px;
+}
+
+.game {
+  margin-top: 70px;
+  color: #000850;
+  background-color: #faf3d5;
+  font-size: 1.75em;
+  height: 100px;
+  width: 450px;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.div-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 80px;
+  height: 120px;
+  width: 500;
+}
+
+.button-yes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  width: 200;
+}
+
+.button-no {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  width: 200;
+}
+
+.button {
+  padding: 10px 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #faf3d5;
+  color: rgb(0, 8, 80);
+  cursor: pointer;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none; 
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #f5e289;
+  padding: 10.5px 50px;
+}
